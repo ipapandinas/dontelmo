@@ -1,15 +1,11 @@
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font: normal 400 1.6rem "PressStart2P";
   font-size: 62.5%;
 }
 
-#__next {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -19,7 +15,7 @@ body {
   position: relative;
 }
 
-#__next::before {
+body::before {
   content: " ";
   display: block;
   position: fixed;
@@ -40,6 +36,9 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   max-width: 1280px;
   padding: 2rem 0 4rem;
@@ -54,11 +53,14 @@ main {
   width: 66%;
   max-width: 1280px;
   margin: 0 auto;
-  min-height: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+}
+
+main > div {
+  display: contents;
 }
 
 footer {
