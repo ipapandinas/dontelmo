@@ -1,0 +1,9 @@
+.root {
+  margin-top: 8rem;
+}
+
+.title {
+  border-bottom: 1px solid #eaecee;
+  font-size: 2.4rem;
+  padding: 0 0 0.2rem;
+}

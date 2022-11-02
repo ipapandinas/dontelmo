@@ -1,0 +1,122 @@
+.root {
+  width: 100%;
+  height: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.left {
+  margin-left: 0.4rem;
+}
+
+.right {
+  margin-right: 0.4rem;
+  transform: rotate(45deg);
+}
+
+.right,
+.left {
+  flex-shrink: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #000;
+}
+
+.separator {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 0 0.4rem;
+  gap: 0.2rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #000;
+}
+
+.title {
+  font-size: 0.8rem;
+}
+
+/* @include tablet {
+  .FileHeader {
+    height: $file-header-md;
+    border: 0.14rem solid #000;
+  }
+
+  .FileHeader__left {
+    margin-left: 0.4rem;
+  }
+
+  .FileHeader__right {
+    margin-right: 0.4rem;
+  }
+
+  .FileHeader__left,
+  .FileHeader__right {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .FileHeader__separator {
+    width: 30%;
+    margin: 0 0.6rem;
+
+    > * {
+      height: 0.06rem;
+
+      &:not(:last-child) {
+        margin-bottom: 0.27rem;
+      }
+    }
+  }
+
+  .FileHeader__center {
+    font-size: 0.6rem;
+  }
+
+  .FileHeader__content {
+    border: 0.14rem solid #000;
+    border-top: 0;
+  }
+}
+
+@include desktop {
+  .FileHeader {
+    height: $file-header-lg;
+    border: 0.1rem solid #000;
+  }
+
+  .FileHeader__left {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 0.4rem;
+  }
+
+  .FileHeader__right {
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 0.4rem;
+  }
+
+  .FileHeader__separator {
+    width: 36%;
+    margin: 0 0.5rem;
+
+    > * {
+      height: 0.08rem;
+
+      &:not(:last-child) {
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+
+  .FileHeader__center {
+    font-size: 0.6rem;
+  }
+} */

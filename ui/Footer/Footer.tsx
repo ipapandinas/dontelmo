@@ -1,13 +1,18 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
-import styles from "./Footer.module.css";
+import styles from './styles.module.css'
 
 export default function Footer() {
   return (
     <footer className={styles.root}>
-      <Link className={styles.tag} href="/" title="Don Telmo website" rel="noopener noreferrer">
-          © {new Date().getFullYear()} DON TELMO
+      <Link
+        className={styles.tag}
+        href="/"
+        title="Don Telmo website"
+        rel="noopener noreferrer"
+      >
+        © {new Date().getFullYear()} DON TELMO
       </Link>
       <div className={styles.socials}>
         <a
@@ -44,5 +49,5 @@ export default function Footer() {
         </a>
       </div>
     </footer>
-  );
+  )
 }

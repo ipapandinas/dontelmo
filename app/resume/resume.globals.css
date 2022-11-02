@@ -22,5 +22,13 @@ a {
 
 * {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 1.6rem;
+}
+
+li {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
 }

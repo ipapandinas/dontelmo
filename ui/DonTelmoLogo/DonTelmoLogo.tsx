@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 
 import styles from './styles.module.css'
 
-const DonTelmoLogo = () => {
+const DonTelmoLogo = ({ isPath = true }: { isPath?: boolean }) => {
   const pathname = usePathname()
   return (
     <div className={styles.root}>
@@ -25,9 +25,11 @@ const DonTelmoLogo = () => {
         <span className={styles.pathPrefix}>DON</span>
         <div>
           <span className={styles.telmo}>TELMO</span>
-          <span className={styles.path}>{` ( C:\\${
-            pathname?.substring(1) || '...'
-          } )`}</span>
+          {isPath && (
+            <span className={styles.path}>{` ( C:${
+              pathname?.replaceAll('/', '\\') || '...'
+            } )`}</span>
+          )}
         </div>
         <div className={styles.rainbow}>
           <div className="green" style={{ backgroundColor: '#62ba49' }} />

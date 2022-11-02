@@ -1,0 +1,31 @@
+.root {
+  margin: 0 0 4rem;
+}
+
+.link {
+  color: #828683 !important;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0 0 0.8rem;
+}
+
+.subtitle {
+  margin: 0 0 0.8rem;
+  font-style: italic;
+  color: #828683;
+}
+
+.subtitle strong {
+  font-weight: bold;
+}
+
+.root li {
+  margin: 1rem 0 0;
+}
+
+.root a {
+  font-weight: bold;
+  color: #000;
+}
