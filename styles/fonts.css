@@ -1,13 +1,6 @@
 @font-face {
-  font-family: "PressStart2P";
+  font-family: 'PressStart2P';
   font-style: normal;
   font-display: swap;
-  src: url("/fonts/PressStart2P/PressStart2P-Regular.ttf");
-}
-
-@font-face {
-  font-family: "SFProDisplay";
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/SFProDisplay/SFProDisplay-Regular.ttf");
+  src: url('/fonts/PressStart2P/PressStart2P-Regular.ttf');
 }

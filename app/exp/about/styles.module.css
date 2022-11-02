@@ -1,0 +1,36 @@
+.root {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  margin: 8rem 0 8rem;
+  text-align: center;
+}
+
+.block {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.listItem {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 992px) {
+  .root {
+    width: 100%;
+  }
+}
