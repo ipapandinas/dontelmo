@@ -43,19 +43,13 @@ export default function RootLayoutResume({ children }: { children: any }) {
                   <NavLink label="Technical skills" to="/resume/#skills" />
                 </li>
                 <li>
-                  <NavLink label="Work experience" to="/resume/#experience" />
-                </li>
-                <li>
-                  <NavLink label="Projects" to="/resume/#projects" />
+                  <NavLink label="Experience" to="/resume/#experience" />
                 </li>
                 <li>
                   <NavLink label="Education" to="/resume/#education" />
                 </li>
                 <li>
                   <NavLink label="Languages" to="/resume/#languages" />
-                </li>
-                <li>
-                  <NavLink label="Passions" to="/resume/#passions" />
                 </li>
               </ul>
             </div>

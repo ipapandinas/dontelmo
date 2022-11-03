@@ -9,7 +9,7 @@
 
 .description {
   font-size: 1.6rem;
-  margin: 8rem 0 8rem;
+  margin: 8rem 0;
   text-align: center;
 }
 
@@ -27,6 +27,12 @@
 
 .listItem {
   font-size: 1.6rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {

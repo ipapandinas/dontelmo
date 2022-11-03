@@ -19,7 +19,7 @@ const SlickSlider = () => {
     touchMove: true,
   }
 
-  if (pathname === '/') return null
+  if (pathname === '/exp') return null
 
   return (
     <div className={styles.root}>

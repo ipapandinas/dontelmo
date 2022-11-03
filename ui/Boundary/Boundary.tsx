@@ -12,6 +12,7 @@ export const Boundary = ({
     className={clsx({
       'fade-in': animateRerendering,
     })}
+    style={{ display: 'flex', flex: 1 }}
   >
     {children}
   </div>

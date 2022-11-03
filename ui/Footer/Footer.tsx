@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.root}>
       <Link
         className={styles.tag}
-        href="/"
+        href="/exp"
         title="Don Telmo website"
         rel="noopener noreferrer"
       >

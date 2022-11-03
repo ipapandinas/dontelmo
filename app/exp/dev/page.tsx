@@ -10,7 +10,7 @@ export default function Page() {
     <div className={styles.root}>
       <PortalButton />
       <p className={styles.text}>
-        Some of the projects I worked on.
+        some of the projects I worked on.
         <br />
         <br />I am always trying to balance creativity with technology.
       </p>

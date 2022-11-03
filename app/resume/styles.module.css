@@ -2,7 +2,7 @@
   display: grid;
   column-gap: 12rem;
   grid-template-columns: minmax(auto, 140px) 1fr;
-  padding: 6.4rem 0;
+  padding: 8rem 0;
 }
 
 .navigation {
@@ -72,4 +72,15 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: right;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.languages {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
