@@ -10,11 +10,24 @@ import styles from './styles.module.css'
 const SlickSlider = () => {
   const router = useRouter()
   const pathname = usePathname()
+  let initialSlide = 0
+  switch (pathname) {
+    case '/exp/misc':
+      initialSlide = 1
+      break
+    case '/exp/about':
+      initialSlide = 2
+      break
+    default:
+      initialSlide = 0
+      break
+  }
 
   const sliderSettings = {
     arrows: false,
     dots: true,
     focusOnSelect: true,
+    initialSlide,
     slidesToShow: 1,
     touchMove: true,
   }

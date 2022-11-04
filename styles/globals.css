@@ -25,14 +25,3 @@ a {
   font-size: 62.5%;
   line-height: 1.2;
 }
-
-@media (max-width: 992px) {
-  html,
-  body {
-    font-size: 100%;
-  }
-
-  * {
-    font-size: 100%;
-  }
-}

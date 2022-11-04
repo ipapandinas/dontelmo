@@ -11,10 +11,6 @@
   width: 4rem;
 }
 
-.mobile {
-  display: none;
-}
-
 .pathWrapper {
   display: flex;
   flex-direction: column;
@@ -46,12 +42,8 @@
 }
 
 @media (max-width: 992px) {
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
+  .root {
+    width: auto;
   }
 
   .tag {

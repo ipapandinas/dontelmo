@@ -13,16 +13,6 @@ const DonTelmoLogo = ({ isPath = true }: { isPath?: boolean }) => {
     <div className={styles.root}>
       <Link href="/exp" title="Homepage" className={styles.logo}>
         <Image
-          className={styles.mobile}
-          alt="DON TELMO's avatar"
-          height={64}
-          width={64}
-          priority
-          src="/assets/svgs/alien.svg"
-          title="DON TELMO's avatar"
-        />
-        <Image
-          className={styles.desktop}
           alt="DON TELMO's avatar"
           height={40}
           width={40}

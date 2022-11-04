@@ -32,10 +32,3 @@ li {
 p {
   margin: 0;
 }
-
-@media (max-width: 992px) {
-  html,
-  body {
-    font-size: 100%;
-  }
-}

@@ -40,13 +40,17 @@
   }
 
   .tag {
-    margin-top: 2.4rem;
+    margin-top: 3.2rem;
+  }
+
+  .socials * {
+    padding: 0 1.2rem;
   }
 
   .icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    transform: scale(3);
+    width: 2rem;
+    height: 2rem;
+    transform: scale(2);
   }
 }
 

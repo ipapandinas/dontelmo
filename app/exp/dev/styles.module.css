@@ -52,6 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .projectAvatar {
@@ -103,6 +104,10 @@
 @media (max-width: 992px) {
   .root {
     width: 100%;
+  }
+
+  .button {
+    margin-top: 12rem;
   }
 
   .portfolio {
