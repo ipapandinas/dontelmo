@@ -2,26 +2,19 @@
   display: grid;
   column-gap: 12rem;
   grid-template-columns: minmax(auto, 140px) 1fr;
-  padding: 8rem 0;
+  padding: 8rem 3.2rem;
 }
 
 .navigation {
   grid-column-start: 1;
 }
 
-.backWrapper {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-}
-
-.backLabel {
-  font-family: 'PressStart2P';
-  font-size: 1.6rem;
-}
-
 .content {
   grid-column-start: 2;
+}
+
+.backLink {
+  display: none;
 }
 
 .tableContents {
@@ -83,4 +76,33 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .layout {
+    display: block;
+    width: 100%;
+    padding: 4rem 3.2rem 8rem;
+  }
+
+  .resume {
+    margin-top: 4rem;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .backLink {
+    display: block;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    text-align: center;
+  }
 }

@@ -37,6 +37,8 @@
 @media (max-width: 992px) {
   .root {
     flex-direction: column-reverse;
+    padding: 1.6rem 0 4rem;
+    margin: 8rem auto 0;
   }
 
   .tag {

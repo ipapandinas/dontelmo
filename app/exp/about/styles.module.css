@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.dom {
+  margin-bottom: 4rem;
+}
+
 .block {
   text-align: left;
   font-size: 1.6rem;

@@ -1,0 +1,10 @@
+.backWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.backLabel {
+  font-family: 'PressStart2P';
+  font-size: 1.6rem;
+}

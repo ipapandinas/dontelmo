@@ -1,14 +1,13 @@
 import '@/styles/fonts.css'
 import './resume.globals.css'
+import Link from 'next/link'
 import localFont from '@next/font/local'
 
 const myFont = localFont({ src: './sf-pro-display-regular.woff2' })
 
-import DonTelmoLogo from '@/ui/DonTelmoLogo/DonTelmoLogo'
+import BackLink from './ui/BackLink/BackLink'
 
 import styles from './styles.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
 
 export default function RootLayoutResume({ children }: { children: any }) {
   const NavLink = ({ label, to }: { label: string; to: string }) => (
@@ -22,20 +21,7 @@ export default function RootLayoutResume({ children }: { children: any }) {
       <body>
         <main className={styles.layout}>
           <div className={styles.navigation}>
-            <Link href="/exp" title="Back to DON TELMO's WEB INVASION EXP.">
-              <DonTelmoLogo isPath={false} />
-              <div className={styles.backWrapper}>
-                <Image
-                  alt="Back arrow"
-                  height={40}
-                  width={40}
-                  priority
-                  src="/assets/svgs/back.svg"
-                  title="Back to DON TELMO's WEB INVASION EXP."
-                />
-                <div className={styles.backLabel}>BACK</div>
-              </div>
-            </Link>
+            <BackLink />
             <div className={styles.tableContents}>
               <div className={styles.tableContentsLabel}>Contents</div>
               <ul className={styles.links}>
