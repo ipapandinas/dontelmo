@@ -12,6 +12,7 @@
     {
       "src": "/manifest-logo/icon-192x192.png",
       "sizes": "192x192",
+      "purpose": "maskable",
       "type": "image/png"
     },
     {
@@ -27,6 +28,7 @@
     {
       "src": "/manifest-logo/icon-512x512.png",
       "sizes": "512x512",
+      "purpose": "maskable",
       "type": "image/png"
     }
   ]
