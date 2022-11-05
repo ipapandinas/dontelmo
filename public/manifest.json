@@ -1,7 +1,7 @@
 {
   "name": "DON TELMO WEB INVASION EXP.",
   "short_name": "Don Telmo",
-  "start_url": "/",
+  "start_url": "/exp",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#fdd600",
