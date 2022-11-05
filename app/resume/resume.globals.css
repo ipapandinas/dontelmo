@@ -21,6 +21,7 @@ a {
 }
 
 * {
+  font: normal 400 1.6rem 'SFPro';
   box-sizing: border-box;
   font-size: 1.6rem;
 }

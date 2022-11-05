@@ -21,6 +21,7 @@ a {
 }
 
 * {
+  font: normal 400 1.6rem 'PressStart2P';
   box-sizing: border-box;
   font-size: 62.5%;
   line-height: 1.2;

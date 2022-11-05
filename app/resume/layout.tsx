@@ -1,6 +1,5 @@
 import '@/styles/fonts.css'
 import './resume.globals.css'
-import Link from 'next/link'
 import localFont from '@next/font/local'
 
 const myFont = localFont({ src: './sf-pro-display-regular.woff2' })
