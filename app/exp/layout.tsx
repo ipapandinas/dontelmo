@@ -21,12 +21,12 @@ export default function RootLayout({ children }: { children: any }) {
         <SideMenu />
         <Clock />
 
-        <header className={styles.header}>
+        <div className={styles.header}>
           <Link href="/exp" title="Homepage" className={styles.homeLink}>
             <DonTelmoLogo />
           </Link>
           <SlickSlider />
-        </header>
+        </div>
         <main>{children}</main>
         <Footer />
       </body>
