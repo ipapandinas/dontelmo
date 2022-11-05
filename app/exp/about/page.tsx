@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import styles from './styles.module.css'
 
 export default function Page() {
@@ -15,10 +17,22 @@ export default function Page() {
         <p className={styles.block}>{'<ipapandinas>'}</p>
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            🖖 Ternoa blockchain core team member
+            <Image
+              alt="Hand emoji"
+              src="/assets/svgs/hand.svg"
+              width={20}
+              height={20}
+            />{' '}
+            Ternoa blockchain core team member
           </li>
           <li className={styles.listItem}>
-            🐦 follow me on{' '}
+            <Image
+              alt="Bird emoji"
+              src="/assets/svgs/bird.svg"
+              width={20}
+              height={20}
+            />{' '}
+            follow me on{' '}
             <a
               className={styles.link}
               href="https://twitter.com/dontelmo_"
@@ -30,7 +44,13 @@ export default function Page() {
             </a>
           </li>
           <li className={styles.listItem}>
-            🤝 I’m looking to collaborate, reach me on{' '}
+            <Image
+              alt="Dolls emoji"
+              src="/assets/svgs/dolls.svg"
+              width={20}
+              height={20}
+            />{' '}
+            I’m looking to collaborate, reach me on{' '}
             <a
               className={styles.link}
               href="https://www.linkedin.com/in/igor-papandinas/"
@@ -41,7 +61,15 @@ export default function Page() {
               LinkedIn
             </a>
           </li>
-          <li className={styles.listItem}>🍝 pasta purist</li>
+          <li className={styles.listItem}>
+            <Image
+              alt="Pasta emoji"
+              src="/assets/svgs/pasta.svg"
+              width={20}
+              height={20}
+            />{' '}
+            pasta purist
+          </li>
         </ul>
         <p className={styles.block}>{'</ipapandinas>'}</p>
       </div>
