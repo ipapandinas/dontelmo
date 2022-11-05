@@ -8,14 +8,9 @@ const myFont = localFont({ src: './sf-pro-display-regular.woff2' })
 import BackLink from './ui/BackLink/BackLink'
 
 import styles from './styles.module.css'
+import NavLink from './ui/NavLink/NavLink'
 
 export default function RootLayoutResume({ children }: { children: any }) {
-  const NavLink = ({ label, to }: { label: string; to: string }) => (
-    <Link className={styles.anchor} href={to} key={`link-${to}`}>
-      {label}
-    </Link>
-  )
-
   return (
     <html lang="en" className={myFont.className}>
       <body>
@@ -26,16 +21,16 @@ export default function RootLayoutResume({ children }: { children: any }) {
               <div className={styles.tableContentsLabel}>Contents</div>
               <ul className={styles.links}>
                 <li>
-                  <NavLink label="Technical skills" to="/resume/#skills" />
+                  <NavLink label="Technical skills" to="section-skills" />
                 </li>
                 <li>
-                  <NavLink label="Experience" to="/resume/#experience" />
+                  <NavLink label="Experience" to="section-experience" />
                 </li>
                 <li>
-                  <NavLink label="Education" to="/resume/#education" />
+                  <NavLink label="Education" to="section-education" />
                 </li>
                 <li>
-                  <NavLink label="Languages" to="/resume/#languages" />
+                  <NavLink label="Languages" to="section-languages" />
                 </li>
               </ul>
             </div>

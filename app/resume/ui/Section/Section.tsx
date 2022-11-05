@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import { Element } from 'react-scroll'
 
 import styles from './styles.module.css'
 
@@ -11,9 +14,13 @@ const Section = ({
   children: any
   title: string
 }) => (
-  <div className={styles.root} id={anchor}>
+  <Element
+    className={styles.root}
+    name={`section-${anchor}`}
+    key={`section-${anchor}`}
+  >
     {title && <h3 className={styles.title}>{title}</h3>}
     {children}
-  </div>
+  </Element>
 )
 export default Section

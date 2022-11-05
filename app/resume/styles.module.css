@@ -21,16 +21,16 @@
   margin-top: 2.4rem;
 }
 
+.tableContentsMobile {
+  display: none;
+}
+
 .tableContentsLabel {
   font-size: 1.6rem;
 }
 
 .links {
   padding-left: 2.4rem !important;
-}
-
-.anchor {
-  font-size: 1.6rem;
 }
 
 .name {
@@ -83,6 +83,11 @@
     display: block;
     width: 100%;
     padding: 4rem 3.2rem 8rem;
+  }
+
+  .tableContentsMobile {
+    display: block;
+    margin-top: 4rem;
   }
 
   .resume {

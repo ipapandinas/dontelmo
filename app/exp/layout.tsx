@@ -12,6 +12,7 @@ import SideMenu from '@/ui/SideMenu/SideMenu'
 import SlickSlider from '@/ui/SlickSlider/SlickSlider'
 
 import styles from './styles.module.css'
+import Link from 'next/link'
 
 export default function RootLayout({ children }: { children: any }) {
   return (
@@ -20,10 +21,12 @@ export default function RootLayout({ children }: { children: any }) {
         <SideMenu />
         <Clock />
 
-        <div className={styles.header}>
-          <DonTelmoLogo />
+        <header className={styles.header}>
+          <Link href="/exp" title="Homepage" className={styles.homeLink}>
+            <DonTelmoLogo />
+          </Link>
           <SlickSlider />
-        </div>
+        </header>
         <main>{children}</main>
         <Footer />
       </body>

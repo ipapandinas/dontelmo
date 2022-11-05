@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 import styles from './styles.module.css'
@@ -11,7 +10,7 @@ const DonTelmoLogo = ({ isPath = true }: { isPath?: boolean }) => {
   const pathname = usePathname()
   return (
     <div className={styles.root}>
-      <Link href="/exp" title="Homepage" className={styles.logo}>
+      <div className={styles.logo}>
         <Image
           alt="DON TELMO's avatar"
           height={40}
@@ -20,7 +19,7 @@ const DonTelmoLogo = ({ isPath = true }: { isPath?: boolean }) => {
           src="/assets/svgs/alien.svg"
           title="DON TELMO's avatar"
         />
-      </Link>
+      </div>
       <div className={styles.pathWrapper}>
         <span className={styles.pathPrefix}>DON</span>
         <div>

@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './styles.module.css'
 import BackLink from './ui/BackLink/BackLink'
 import Experience from './ui/Experience/Experience'
+import NavLink from './ui/NavLink/NavLink'
 import Section from './ui/Section/Section'
 import Tag from './ui/Tag/Tag'
 import TechnicalSection from './ui/TechnicalSection/TechnicalSection'
@@ -75,6 +76,24 @@ export default function Page() {
               github: ipapandinas
             </a>
           </div>
+        </div>
+
+        <div className={styles.tableContentsMobile}>
+          <div className={styles.tableContentsLabel}>Contents</div>
+          <ul className={styles.links}>
+            <li>
+              <NavLink label="Technical skills" to="section-skills" />
+            </li>
+            <li>
+              <NavLink label="Experience" to="section-experience" />
+            </li>
+            <li>
+              <NavLink label="Education" to="section-education" />
+            </li>
+            <li>
+              <NavLink label="Languages" to="section-languages" />
+            </li>
+          </ul>
         </div>
 
         <Section anchor="skills" title="Technical skills">
