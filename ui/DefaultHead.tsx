@@ -47,6 +47,7 @@ const DefaultHead = () => {
       <meta name="twitter:title" content="DON TELMO" />
       <meta name="twitter:description" content="DON TELMO WEB INVASION EXP." />
       <meta name="twitter:image" content="https://dontelmo.xyz/api/og" />
+      <meta name="twitter:image:alt" content="Don Telmo og image banner" />
       <meta name="twitter:creator" content="@dontelmo_" />
     </>
   )
