@@ -18,10 +18,7 @@ const DefaultHead = () => {
         content="Welcome to my personnal website. I'm a blockchain ecosystem lead engineer and manager for fullstack
         project."
       />
-      <meta
-        name="twitter:image:src"
-        content="https://dontelmo.xyz/assets/images/og.jpg"
-      />
+      <meta name="twitter:image:src" content="https://dontelmo.xyz/api/og" />
       <meta name="twitter:image:alt" content="Don Telmo og image banner" />
       <meta name="twitter:creator" content="@dontelmo_" />
       <meta name="twitter:site" content="@dontelmo_" />
@@ -42,12 +39,13 @@ const DefaultHead = () => {
       <meta property="og:url" content="https://dontelmo.xyz/exp" />
       <meta
         name="image"
-        property="og:image"
-        content="https://dontelmo.xyz/assets/images/og.jpg"
+        property="og:image:url"
+        content="http://dontelmo.xyz/api/og"
       />
       <meta
+        name="image"
         property="og:image:secure_url"
-        content="https://dontelmo.xyz/assets/images/og.jpg"
+        content="https://dontelmo.xyz/api/og"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
