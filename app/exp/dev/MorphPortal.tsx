@@ -34,6 +34,7 @@ const MorphPortal = ({ destination, top, left }: Props) => {
 
     setTimeout(() => {
       router.push(destination)
+      router.refresh()
     }, 600)
   }, [destination, left, router, top])
 
