@@ -1,8 +1,9 @@
+import '@/styles/globals.css'
 import '@/styles/fonts.css'
 import './resume.globals.css'
-import localFont from '@next/font/local'
+import { Inter } from '@next/font/google'
 
-const myFont = localFont({ src: './sf-pro-display-regular.woff2' })
+const myFont = Inter()
 
 import BackLink from './ui/BackLink/BackLink'
 

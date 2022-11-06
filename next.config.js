@@ -10,6 +10,9 @@ const nextConfig = {
   experimental: {
     // Required:
     appDir: true,
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } },
+    ],
   },
   async redirects() {
     return [
@@ -22,19 +25,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withPWA({
-  ...nextConfig,
-  async headers() {
-    return [
-      {
-        source: '/fonts/press-start-2p.woff2',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ]
-  },
-})
+module.exports = withPWA(nextConfig)

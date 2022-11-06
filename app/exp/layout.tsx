@@ -1,9 +1,11 @@
 import '@/styles/globals.css'
 import '@/styles/fonts.css'
 import './exp.globals.css'
-import localFont from '@next/font/local'
+import { Press_Start_2P } from '@next/font/google'
 
-const myFont = localFont({ src: './press-start-2p.woff2' })
+const myFont = Press_Start_2P({
+  weight: '400',
+})
 
 import Clock from '@/ui/Clock/Clock'
 import DonTelmoLogo from '@/ui/DonTelmoLogo/DonTelmoLogo'
