@@ -30,18 +30,25 @@ const DefaultHead = () => {
         href="/manifest-logo/logo-192x192.png"
       />
 
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:url" content="https://dontelmo.xyz" />
-      <meta name="twitter:title" content="DON TELMO" />
-      <meta name="twitter:description" content="DON TELMO WEB INVASION EXP." />
-      <meta name="twitter:image" content="https://dontelmo.xyz/logo.png" />
-      <meta name="twitter:creator" content="@dontelmo_" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="DON TELMO" />
       <meta property="og:description" content="DON TELMO WEB INVASION EXP." />
       <meta property="og:site_name" content="DON TELMO" />
       <meta property="og:url" content="https://dontelmo.xyz" />
-      <meta property="og:image" content="https://dontelmo.xyz/logo.png" />
+      <meta property="og:image" content="https://dontelmo.xyz/api/og" />
+      <meta
+        property="og:image:secure_url"
+        content="https://dontelmo.xyz/api/og"
+      />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content="https://dontelmo.xyz" />
+      <meta name="twitter:title" content="DON TELMO" />
+      <meta name="twitter:description" content="DON TELMO WEB INVASION EXP." />
+      <meta name="twitter:image" content="https://dontelmo.xyz/api/og" />
+      <meta name="twitter:image:alt" content="Don Telmo og image banner" />
+      <meta name="twitter:creator" content="@dontelmo_" />
     </>
   )
 }
