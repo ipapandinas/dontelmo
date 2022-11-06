@@ -30,6 +30,7 @@ const DefaultHead = () => {
         content="DON TELMO WEB INVASION EXP."
       />
       <meta
+        name="description"
         property="og:description"
         content="Welcome to my personnal website. I'm a blockchain ecosystem lead engineer and manager for fullstack
         project."
