@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@next/font": "^13.0.0",
+    "@vercel/og": "^0.0.20",
     "animejs": "^3.2.1",
     "clsx": "^1.2.1",
     "next": "^13.0.2",
