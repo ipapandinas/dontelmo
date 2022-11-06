@@ -40,7 +40,7 @@ const DefaultHead = () => {
       <meta
         name="image"
         property="og:image:url"
-        content="http://dontelmo.xyz/api/og"
+        content="https://dontelmo.xyz/api/og"
       />
       <meta
         name="image"
