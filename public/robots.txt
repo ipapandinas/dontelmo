@@ -2,6 +2,12 @@
 User-agent: *
 Allow: /
 
+User-agent: facebookexternalhit
+Disallow:
+
+User-agent: Twitterbot
+Disallow:
+
 # Host
 Host: https://dontelmo.xyz
 
