@@ -29,8 +29,8 @@ export default function Page() {
             </p>
             <p>
               I am very quality conscious and understand the requirements to
-              create user-friendly experiences. I have the rigor to properly
-              manage a project and accompany my clients.
+              create user-friendly experiences. I have the necessary rigour to
+              manage a project properly and support my clients.
             </p>
           </div>
           <div className={styles.contact}>
