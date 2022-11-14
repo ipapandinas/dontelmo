@@ -1,15 +1,13 @@
 @font-face {
   font-family: 'PressStart2P';
   font-style: normal;
-  font-display: swap;
-  src: url('/fonts/PressStart2P-Regular.ttf'),
-    url('/fonts/press-start-2p.woff2') format('woff2');
+  font-display: optional;
+  src: url('/fonts/press-start-2p.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'SFPro';
   font-style: normal;
-  font-display: swap;
-  src: url('/fonts/SFProDisplay-Regular.ttf'),
-    url('/fonts/sf-pro-display-regular.woff2') format('woff2');
+  font-display: optional;
+  src: url('/fonts/sf-pro-display-regular.woff2') format('woff2');
 }

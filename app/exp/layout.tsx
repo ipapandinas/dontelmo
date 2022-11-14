@@ -1,9 +1,6 @@
 import '@/styles/globals.css'
 import '@/styles/fonts.css'
 import './exp.globals.css'
-import localFont from '@next/font/local'
-
-const myFont = localFont({ src: './press-start-2p.woff2' })
 
 import Clock from '@/ui/Clock/Clock'
 import DonTelmoLogo from '@/ui/DonTelmoLogo/DonTelmoLogo'
@@ -16,7 +13,7 @@ import Link from 'next/link'
 
 export default function RootLayout({ children }: { children: any }) {
   return (
-    <html lang="en" className={myFont.className}>
+    <html lang="en">
       <body>
         <SideMenu />
         <Clock />

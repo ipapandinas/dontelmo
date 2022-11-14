@@ -1,8 +1,5 @@
 import '@/styles/fonts.css'
 import './resume.globals.css'
-import localFont from '@next/font/local'
-
-const myFont = localFont({ src: './sf-pro-display-regular.woff2' })
 
 import BackLink from './ui/BackLink/BackLink'
 
@@ -11,7 +8,7 @@ import NavLink from './ui/NavLink/NavLink'
 
 export default function RootLayoutResume({ children }: { children: any }) {
   return (
-    <html lang="en" className={myFont.className}>
+    <html lang="en">
       <body>
         <main className={styles.layout}>
           <div className={styles.navigation}>
