@@ -69,6 +69,20 @@ const DefaultHead = () => {
         sizes="192x192"
         href="/manifest-logo/logo-192x192.png"
       />
+      <link
+        rel="preload"
+        href="/fonts/press-start-2p.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="preload"
+        href="/fonts/sf-pro-display-regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </>
   )
 }
