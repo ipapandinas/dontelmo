@@ -19,6 +19,17 @@ export const NAV_MENU = [
 export const PORTFOLIO = [
   {
     _id: 0,
+    colors: ['#000'],
+    description: 'NFT-Centric Blockchain.',
+    height: 40,
+    href: 'https://www.ternoa.network/',
+    label: 'Ternoa',
+    logo: '/assets/svgs/ternoa.svg',
+    title: 'Ternoa, NFT-Centric Blockchain.',
+    width: 40,
+  },
+  {
+    _id: 1,
     colors: ['#6633cf'],
     description: 'The first Ternoa NFT marketplace.',
     height: 40,
@@ -29,8 +40,8 @@ export const PORTFOLIO = [
     width: 40,
   },
   {
-    _id: 1,
-    colors: ['#000'],
+    _id: 2,
+    colors: ['#33568d'],
     description: 'Active Ternoa Validator nodes.',
     href: 'https://heracles.works/',
     label: 'HERACLES',
@@ -38,7 +49,7 @@ export const PORTFOLIO = [
     title: 'Active Ternoa Validator nodes.',
   },
   {
-    _id: 2,
+    _id: 3,
     colors: ['#009ddc'],
     description: 'Fuensanta R. Urien portfolio.',
     height: 40,
@@ -50,7 +61,7 @@ export const PORTFOLIO = [
     width: 40,
   },
   {
-    _id: 3,
+    _id: 4,
     colors: ['#62ba49', '#fdb829', '#f6821f', '#df393d', '#973d97', '#009ddc'],
     description: "DON TELMO's web invasion.",
     href: '/',

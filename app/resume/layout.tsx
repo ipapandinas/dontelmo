@@ -1,4 +1,5 @@
 import '@/styles/fonts.css'
+import '@/styles/globals.css'
 import './resume.globals.css'
 import localFont from '@next/font/local'
 
