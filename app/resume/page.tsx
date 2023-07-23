@@ -22,10 +22,10 @@ export default function Page() {
           <div className={styles.description}>
             <p>Hello, I&apos;m Igor.</p>
             <p>
-              I&apos;m a blockchain ecosystem lead engineer and manager for
-              fullstack project. I&apos;m a member of the Ternoa core team, an
-              entrepreneur and crypto enthusiast with 5 years of experience in
-              development.
+              I&apos;m a blockchain engineer and manager for fullstack project.
+              I&apos;m a member of the Ternoa core team, an Alumni of the
+              Polkadot Blockchain Academy, an entrepreneur and crypto enthusiast
+              with 5 years of experience in software development.
             </p>
             <p>
               I am very quality conscious and understand the requirements to
@@ -52,12 +52,12 @@ export default function Page() {
             </a>
             <br />
             <a
-              href="https://www.mrtelmo.com"
+              href="https://www.dontelmo.xyz"
               title="Personnal website"
               target="_blank"
               rel="noopener noreferrer"
             >
-              www.mrtelmo.com
+              www.dontelmo.xyz
             </a>
             <a
               href="https://www.linkedin.com/in/igor-papandinas/?locale=en_US"
@@ -102,15 +102,14 @@ export default function Page() {
               <Tag name="Javascript/Typescript" />
               <Tag name="React" version="18" />
               <Tag name="NextJS" version="13" />
-              <Tag name="GraphQL" />
-              <Tag name="NodeJS" />
-              <Tag name="ExpressJS" />
-              <Tag name="MongoDB" />
-              <Tag name="Substrate" />
               <Tag name="Rust" />
+              <Tag name="Substrate" />
+              <Tag name="Ink!" />
               <Tag name="Solidity" />
               <Tag name="Web3JS" />
-              <Tag name="CSS-in-JS" />
+              <Tag name="GraphQL" />
+              <Tag name="NodeJS" />
+              <Tag name="T3 Stack" />
               <Tag name="OSS" />
             </TechnicalSection>
           </>
@@ -119,7 +118,7 @@ export default function Page() {
         <Section anchor="experience" title="Experience">
           <Experience
             subtitle="Co-Founder - CTO – (June 2022 - now)"
-            title="Secret Stash"
+            title="• Secret Stash"
           >
             Development of the first NFTs marketplace on the Ternoa blockchain.
             Management and community growth.
@@ -136,8 +135,26 @@ export default function Page() {
             </a>
           </Experience>
           <Experience
-            subtitle="Remote – (Oct 2021 - now)"
-            title="Blockchain ecosystem lead engineer - @Ternoa"
+            subtitle="UC Berkely – (July 2023 - Aug 2023)"
+            title="• Polkadot Blockchain Academy Alumni (Cohort 3) - @UC Berkeley California"
+          >
+            The{' '}
+            <a
+              className={styles.link}
+              href="https://polkadot.network/development/academy/"
+              title="Polkadot Blockchain Academy website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Polkadot Blockchain Academy
+            </a>{' '}
+            is an intensive, in-person educational program deeply exploring
+            foundational concepts and hands-on blockchain curriculum. Built with
+            Polkadot and Substrate tech.
+          </Experience>
+          <Experience
+            subtitle="Remote – (Oct 2021 - July 2023)"
+            title="• Blockchain engineer (Typescript integration & Substrate pallets) - @Ternoa"
           >
             <a
               className={styles.link}
@@ -156,10 +173,11 @@ export default function Page() {
             to build on top of the Ternoa Chain. I am responsible for the
             builder experience by maintaining the Ternoa JS SDK and the Ternoa
             Indexer. Both tools are OSS on Github.
+            <br />I also participated to the TEE & NFT pallets development.
           </Experience>
           <Experience
             subtitle="Paris, France – (Oct 2019 - Sept 2021)"
-            title="Frontend Engineer, React - @Vinci Immobilier"
+            title="• Frontend Engineer, React - @Vinci Immobilier"
           >
             My team and I were in charge of perfecting Vinci Immobilier website,
             a real state company. This was followed by the development of a
@@ -177,7 +195,7 @@ export default function Page() {
           </Experience>
           <Experience
             subtitle="Paris, France – (Sept 2018 - Sept 2019)"
-            title="Software Engineer - @Thales"
+            title="• Software Engineer - @Thales"
           >
             My mission was to design equipement drivers for the{' '}
             <a
@@ -196,11 +214,11 @@ export default function Page() {
         <Section anchor="education" title="Education">
           <Experience
             subtitle="INP ENSEIRB-MATMECA*, Bordeaux, France – (2015 - 2018)"
-            title="Master of higher education in Electronics specialized in Embedded Systems."
+            title="• Master of higher education in Electronics specialized in Embedded Systems."
           />
           <Experience
             subtitle="*Bayonne, France – (2013 - 2015)"
-            title="Bachelor’s Degree in Engineering Sciences."
+            title="• Bachelor’s Degree in Engineering Sciences."
           />
         </Section>
 
