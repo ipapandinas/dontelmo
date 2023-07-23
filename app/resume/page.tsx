@@ -135,24 +135,6 @@ export default function Page() {
             </a>
           </Experience>
           <Experience
-            subtitle="UC Berkely – (July 2023 - Aug 2023)"
-            title="• Polkadot Blockchain Academy Alumni (Cohort 3) - @UC Berkeley California"
-          >
-            The{' '}
-            <a
-              className={styles.link}
-              href="https://polkadot.network/development/academy/"
-              title="Polkadot Blockchain Academy website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Polkadot Blockchain Academy
-            </a>{' '}
-            is an intensive, in-person educational program deeply exploring
-            foundational concepts and hands-on blockchain curriculum. Built with
-            Polkadot and Substrate tech.
-          </Experience>
-          <Experience
             subtitle="Remote – (Oct 2021 - July 2023)"
             title="• Blockchain engineer (Typescript integration & Substrate pallets) - @Ternoa"
           >
@@ -212,6 +194,24 @@ export default function Page() {
         </Section>
 
         <Section anchor="education" title="Education">
+          <Experience
+            subtitle="UC Berkeley – (July 2023 - Aug 2023)"
+            title="• Polkadot Blockchain Academy Alumni (Cohort 3) - @UC Berkeley California"
+          >
+            The{' '}
+            <a
+              className={styles.link}
+              href="https://polkadot.network/development/academy/"
+              title="Polkadot Blockchain Academy website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Polkadot Blockchain Academy
+            </a>{' '}
+            is an intensive, in-person educational program deeply exploring
+            foundational concepts and hands-on blockchain curriculum. Built with
+            Polkadot and Substrate tech.
+          </Experience>
           <Experience
             subtitle="INP ENSEIRB-MATMECA*, Bordeaux, France – (2015 - 2018)"
             title="• Master of higher education in Electronics specialized in Embedded Systems."
