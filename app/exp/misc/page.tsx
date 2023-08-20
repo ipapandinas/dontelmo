@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
+
 import FileHeader from '@/ui/FileHeader/FileHeader'
 
 import styles from './styles.module.css'
+
+export const metadata: Metadata = {
+  title: 'MISC | DON TELMO',
+}
 
 export default function Page() {
   return (

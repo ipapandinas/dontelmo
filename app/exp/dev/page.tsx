@@ -1,9 +1,14 @@
 import Image from 'next/image'
+import type { Metadata } from 'next'
 
 import { PORTFOLIO } from 'lib/constants'
 
 import styles from './styles.module.css'
 import PortalButton from './PortalButton'
+
+export const metadata: Metadata = {
+  title: 'DEV | DON TELMO',
+}
 
 export default function Page() {
   return (
