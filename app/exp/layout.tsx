@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   formatDetection: { telephone: false },
   openGraph: {
     type: 'website',
-    url: '/exp',
+    url: 'https://dontelmo.xyz/exp',
     title: 'DON TELMO WEB INVASION EXP.',
     description:
       "Hi! I'm Igor Papandinas, welcome to my personal website. I'm a blockchain engineer and manager for fullstack projects.",
