@@ -7,8 +7,7 @@ export default function Page() {
     <div className={styles.root}>
       <h1 className={styles.title}>hi,</h1>
       <p className={styles.description}>
-        I&apos;m a blockchain ecosystem lead engineer and manager for fullstack
-        project.
+        I&apos;m a blockchain engineer and manager for fullstack projects.
         <br />
         <br />
         this is my current DOM:
@@ -24,6 +23,10 @@ export default function Page() {
               height={20}
             />{' '}
             Ternoa blockchain core team member
+          </li>
+          <li className={styles.listItem}>
+            <span className={styles.polkadotEmoji} /> Polkadot Blockchain
+            Academy Alumni
           </li>
           <li className={styles.listItem}>
             <Image
