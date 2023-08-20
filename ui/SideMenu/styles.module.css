@@ -1,9 +1,9 @@
 .root {
   width: 11%;
   max-width: 17.6rem;
-  position: fixed;
+  position: absolute;
   top: 54vh;
-  margin-left: 2.4rem;
+  margin-left: 3.2rem;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;

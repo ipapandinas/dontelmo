@@ -1,10 +1,10 @@
 .root {
   width: 11%;
   max-width: 17.6rem;
-  position: sticky;
-  display: block;
+  position: absolute;
   top: 80.4vh;
-  left: 81%;
+  right: 0;
+  left: 85%;
 }
 
 .clock {
