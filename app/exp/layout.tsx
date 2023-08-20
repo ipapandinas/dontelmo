@@ -67,16 +67,18 @@ export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en" className={press_start_2p.className}>
       <body>
-        <SideMenu />
-        <Clock />
-
         <div className={styles.header}>
           <Link href="/exp" title="Homepage" className={styles.homeLink}>
             <DonTelmoLogo />
           </Link>
           <SlickSlider />
         </div>
-        <main>{children}</main>
+
+        <div>
+          <SideMenu />
+          <Clock />
+          <main>{children}</main>
+        </div>
         <Footer />
         <Analytics />
       </body>
