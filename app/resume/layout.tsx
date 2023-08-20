@@ -1,4 +1,5 @@
-import '@/styles/fonts.css'
+import { Inter } from 'next/font/google'
+
 import './resume.globals.css'
 
 import BackLink from './ui/BackLink/BackLink'
@@ -6,9 +7,14 @@ import BackLink from './ui/BackLink/BackLink'
 import styles from './styles.module.css'
 import NavLink from './ui/NavLink/NavLink'
 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 export default function RootLayoutResume({ children }: { children: any }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>
         <main className={styles.layout}>
           <div className={styles.navigation}>

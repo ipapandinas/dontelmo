@@ -1,8 +1,8 @@
 import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
+import { Press_Start_2P } from 'next/font/google'
 
 import '@/styles/globals.css'
-import '@/styles/fonts.css'
 import './exp.globals.css'
 
 import Clock from '@/ui/Clock/Clock'
@@ -13,6 +13,12 @@ import SlickSlider from '@/ui/SlickSlider/SlickSlider'
 
 import styles from './styles.module.css'
 import Link from 'next/link'
+
+const press_start_2p = Press_Start_2P({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'DON TELMO WEB INVASION EXP.',
@@ -59,7 +65,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: any }) {
   return (
-    <html lang="en">
+    <html lang="en" className={press_start_2p.className}>
       <body>
         <SideMenu />
         <Clock />
