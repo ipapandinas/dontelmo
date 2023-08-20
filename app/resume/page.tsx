@@ -16,7 +16,7 @@ export default function Page() {
       </div>
       <div className={styles.resume}>
         <h2 className={styles.name}>Igor Papandinas</h2>
-        <h3 className={styles.job}>Software Engineer</h3>
+        <h3 className={styles.job}>Blockchain Engineer</h3>
 
         <div className={styles.intro}>
           <div className={styles.description}>
@@ -88,6 +88,9 @@ export default function Page() {
               <NavLink label="Experience" to="section-experience" />
             </li>
             <li>
+              <NavLink label="Projects" to="section-projects" />
+            </li>
+            <li>
               <NavLink label="Education" to="section-education" />
             </li>
             <li>
@@ -117,6 +120,49 @@ export default function Page() {
 
         <Section anchor="experience" title="Experience">
           <Experience
+            subtitle="Remote – (Oct 2021 - July 2023)"
+            title="• Blockchain engineer (Typescript integration & Substrate pallets) - @Ternoa"
+          >
+            <a
+              className={styles.link}
+              href="https://www.ternoa.network/"
+              title="Ternoa website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ternoa
+            </a>{' '}
+            is an NFT-centric Layer 1 blockchain built with Substrate and custom
+            pallets for innovating advanced NFTs features.
+            <br />
+            <br />
+            - Lead a dedicated team responsible for designing tools to integrate
+            Ternoa chain (TS Library + Bridge + Indexer).
+            <br />- Development of the NFT, TEE & Transmission Protocol pallets.
+          </Experience>
+          <Experience
+            subtitle="Paris, France – (Oct 2019 - Sept 2021)"
+            title="• Frontend Engineer, React - @Vinci Immobilier"
+          >
+            My team and I were in charge of perfecting Vinci Immobilier website,
+            a prominent real estate french company.
+            <br />
+            <br />
+            - Development of the portal app website.
+            <br />- Development of a personal space, enabling owners to
+            effectively manage their assets.
+          </Experience>
+          <Experience
+            subtitle="Paris, France – (Sept 2018 - Sept 2019)"
+            title="• Software Engineer - @Thales"
+          >
+            - Development of equipement drivers for the GRIFFON, an armoured
+            vehicle.
+          </Experience>
+        </Section>
+
+        <Section anchor="projects" title="Projects">
+          <Experience
             subtitle="Co-Founder - CTO – (June 2022 - now)"
             title="• Secret Stash"
           >
@@ -133,63 +179,6 @@ export default function Page() {
             >
               secret-stash.io
             </a>
-          </Experience>
-          <Experience
-            subtitle="Remote – (Oct 2021 - July 2023)"
-            title="• Blockchain engineer (Typescript integration & Substrate pallets) - @Ternoa"
-          >
-            <a
-              className={styles.link}
-              href="https://www.ternoa.network/"
-              title="Ternoa website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ternoa
-            </a>{' '}
-            is an NFT-centric Layer 1 blockchain build with Substrate and custom
-            pallets for innovating advanced NFTs features.
-            <br />
-            <br />
-            My team and I are in charge to design high-level programming tools
-            to build on top of the Ternoa Chain. I am responsible for the
-            builder experience by maintaining the Ternoa JS SDK and the Ternoa
-            Indexer. Both tools are OSS on Github.
-            <br />I also participated to the TEE & NFT pallets development.
-          </Experience>
-          <Experience
-            subtitle="Paris, France – (Oct 2019 - Sept 2021)"
-            title="• Frontend Engineer, React - @Vinci Immobilier"
-          >
-            My team and I were in charge of perfecting Vinci Immobilier website,
-            a real state company. This was followed by the development of a
-            brand new personal space, used by an owner for his assets
-            management. Here is the final result:{' '}
-            <a
-              className={styles.link}
-              href="https://www.vinci-immobilier.com"
-              title="Vinci Immobilier website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              www.vinci-immobilier.com
-            </a>
-          </Experience>
-          <Experience
-            subtitle="Paris, France – (Sept 2018 - Sept 2019)"
-            title="• Software Engineer - @Thales"
-          >
-            My mission was to design equipement drivers for the{' '}
-            <a
-              className={styles.link}
-              href="https://www.defense.gouv.fr/terre/equipements/vehicules/scorpion/griffon"
-              title="Griffon"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GRIFFON
-            </a>
-            , an armoured vehicle.
           </Experience>
         </Section>
 

@@ -31,9 +31,7 @@ const Experience = ({
       {title && <div className={styles.title}>{title}</div>}
       {subtitle && (
         <div className={styles.subtitle}>
-          <Reference {...ReferenceProps}>
-            <strong>{subtitle[0]}</strong>
-          </Reference>
+          <Reference {...ReferenceProps}>{subtitle[0]}</Reference>
           <span>{subtitle[1]}</span>
         </div>
       )}

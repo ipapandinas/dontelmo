@@ -29,6 +29,9 @@ export default function RootLayoutResume({ children }: { children: any }) {
                   <NavLink label="Experience" to="section-experience" />
                 </li>
                 <li>
+                  <NavLink label="Projects" to="section-projects" />
+                </li>
+                <li>
                   <NavLink label="Education" to="section-education" />
                 </li>
                 <li>
