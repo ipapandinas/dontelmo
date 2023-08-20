@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import '@/styles/globals.css'
 import '@/styles/fonts.css'
 import './exp.globals.css'
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: any }) {
         </div>
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
