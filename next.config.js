@@ -5,12 +5,7 @@ const withPWA = require('next-pwa')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   swcMinify: true,
-  experimental: {
-    // Required:
-    appDir: true,
-  },
   async redirects() {
     return [
       {

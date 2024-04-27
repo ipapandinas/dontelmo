@@ -15,28 +15,28 @@
     "singleQuote": true
   },
   "dependencies": {
-    "@vercel/analytics": "^1.0.2",
-    "@vercel/og": "^0.5.11",
-    "animejs": "^3.2.1",
-    "clsx": "^2.0.0",
-    "next": "^13.4.19",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/og": "^0.6.2",
+    "animejs": "^3.2.2",
+    "clsx": "^2.1.1",
+    "next": "^14.2.3",
     "next-pwa": "^5.6.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scroll": "^1.8.9",
-    "react-slick": "^0.29.0",
-    "sass": "^1.66.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "sass": "^1.75.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@types/animejs": "^3.1.7",
-    "@types/node": "20.5.1",
-    "@types/react": "18.2.20",
-    "@types/react-dom": "18.2.7",
-    "@types/react-scroll": "^1.8.7",
-    "@types/react-slick": "^0.23.10",
+    "@types/animejs": "^3.1.12",
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@types/react-scroll": "^1.8.10",
+    "@types/react-slick": "^0.23.13",
     "eslint": "8.47.0",
-    "eslint-config-next": "^13.4.19",
-    "typescript": "5.1.6"
+    "eslint-config-next": "^14.2.3",
+    "typescript": "5.4.5"
   }
 }
