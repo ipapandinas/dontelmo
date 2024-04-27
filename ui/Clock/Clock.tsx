@@ -20,7 +20,9 @@ export default function Clock() {
 
   return (
     <aside className={styles.root}>
-      <div className={styles.clock}>{clock.toLocaleTimeString()}</div>
+      <div className={styles.clock}>
+        {clock.toLocaleTimeString(undefined, { timeStyle: 'short' })}
+      </div>
     </aside>
   )
 }

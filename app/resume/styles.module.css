@@ -10,6 +10,8 @@
 }
 
 .navigation {
+  position: fixed;
+  top: 8rem;
   grid-column-start: 1;
 }
 

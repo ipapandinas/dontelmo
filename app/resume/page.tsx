@@ -23,14 +23,14 @@ export default function Page() {
             <p>Hello, I&apos;m Igor.</p>
             <p>
               I&apos;m a blockchain engineer and manager for fullstack project.
-              I&apos;m a member of the Ternoa core team, an Alumni of the
-              Polkadot Blockchain Academy, an entrepreneur and crypto enthusiast
-              with 5 years of experience in software development.
+              I&apos;m a prev member of the Astar & Ternoa core team, an Alumni
+              of the Polkadot Blockchain Academy, an entrepreneur and crypto
+              enthusiast with 6 years of experience in software development.
             </p>
             <p>
               I am very quality conscious and understand the requirements to
               create user-friendly experiences. I have the necessary rigour to
-              manage a project properly and support my clients.
+              manage a project properly and support my customers.
             </p>
           </div>
           <div className={styles.contact}>
@@ -85,10 +85,10 @@ export default function Page() {
               <NavLink label="Technical skills" to="section-skills" />
             </li>
             <li>
-              <NavLink label="Experience" to="section-experience" />
+              <NavLink label="Projects" to="section-projects" />
             </li>
             <li>
-              <NavLink label="Projects" to="section-projects" />
+              <NavLink label="Experience" to="section-experience" />
             </li>
             <li>
               <NavLink label="Education" to="section-education" />
@@ -103,25 +103,84 @@ export default function Page() {
           <>
             <TechnicalSection>
               <Tag name="Javascript/Typescript" />
-              <Tag name="React" version="18" />
-              <Tag name="NextJS" version="13" />
+              <Tag name="React" version="19" />
+              <Tag name="NextJS" version="14" />
               <Tag name="Rust" />
               <Tag name="Substrate" />
-              <Tag name="Ink!" />
-              <Tag name="Solidity" />
-              <Tag name="Web3JS" />
+              <Tag name="PolkadotJS" />
+              <Tag name="EthersJS" />
+              <Tag name="TailwindCSS" />
+              <Tag name="Tanstack Query" />
               <Tag name="GraphQL" />
               <Tag name="NodeJS" />
-              <Tag name="T3 Stack" />
+              <Tag name="Postgres" />
+              <Tag name="Ink!" />
+              <Tag name="Solidity" />
               <Tag name="OSS" />
             </TechnicalSection>
           </>
         </Section>
 
+        <Section anchor="projects" title="Projects">
+          <Experience subtitle="Co-Founder – (2024)" title="• Kudos">
+            A Portal for Agile Devtime - The Platform to Connect Teams and
+            Skilled Contributors in the Polkadot Ecosystem
+            <br />
+            Visit:{' '}
+            <a
+              className={styles.link}
+              href="https://morekudos.com"
+              title="Kudos Portal website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              morekudos.com
+            </a>
+          </Experience>
+          <Experience
+            subtitle="Co-Founder - CTO – (2022 - 2023)"
+            title="• Secret Stash"
+          >
+            Development of the first NFTs marketplace on the Ternoa blockchain.
+            Management and community growth.
+            <br />
+            Here is the final result:{' '}
+            <a
+              className={styles.link}
+              href="https://secret-stash.io"
+              title="Secret Stash website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              secret-stash.io
+            </a>
+          </Experience>
+        </Section>
+
         <Section anchor="experience" title="Experience">
           <Experience
+            subtitle="Remote – (Jan 2024 - Apr 2024)"
+            title="• Blockchain Ink! engineer (Typescript | Rust | Substrate) - @Astar"
+          >
+            <a
+              className={styles.link}
+              href="https://astar.network/"
+              title="Astar website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Astar
+            </a>{' '}
+            is a scalable network powering a global Web3 vision for all.
+            <br />
+            <br />- Lead the development of Swanky, an open source CLI devtool
+            designed to enhance the development and interaction with ink! WASM
+            smart contracts, extending cargo-contract. Tasked with fulfilling
+            the ink!devhub roadmap proposal.
+          </Experience>
+          <Experience
             subtitle="Remote – (Oct 2021 - July 2023)"
-            title="• Blockchain engineer (Typescript integration & Substrate pallets) - @Ternoa"
+            title="• Blockchain Frontend & Integration engineer (Apps, Typescript SDK & Substrate pallets) - @Ternoa"
           >
             <a
               className={styles.link}
@@ -158,27 +217,6 @@ export default function Page() {
           >
             - Development of equipement drivers for the GRIFFON, an armoured
             vehicle.
-          </Experience>
-        </Section>
-
-        <Section anchor="projects" title="Projects">
-          <Experience
-            subtitle="Co-Founder - CTO – (June 2022 - now)"
-            title="• Secret Stash"
-          >
-            Development of the first NFTs marketplace on the Ternoa blockchain.
-            Management and community growth.
-            <br />
-            Here is the final result:{' '}
-            <a
-              className={styles.link}
-              href="https://secret-stash.io"
-              title="Secret Stash website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              secret-stash.io
-            </a>
           </Experience>
         </Section>
 

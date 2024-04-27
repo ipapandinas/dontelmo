@@ -1,5 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Press_Start_2P } from 'next/font/google'
 
 import '@/styles/globals.css'
@@ -20,11 +20,14 @@ const press_start_2p = Press_Start_2P({
   display: 'swap',
 })
 
+export const viewport: Viewport = {
+  themeColor: '#fdd600',
+}
+
 export const metadata: Metadata = {
   title: 'DON TELMO WEB INVASION EXP.',
   description:
     "Hi! I'm Igor Papandinas, welcome to my personal website. I'm a blockchain engineer and manager for fullstack projects.",
-  themeColor: '#fdd600',
   appleWebApp: {
     capable: true,
     title: 'DON TELMO WEB INVASION EXP.',

@@ -28,7 +28,7 @@ export default function Page() {
               width={20}
               height={20}
             />{' '}
-            Ternoa blockchain core team member
+            Astar blockchain core team member
           </li>
           <li className={styles.listItem}>
             <span className={styles.polkadotEmoji} /> Polkadot Blockchain
