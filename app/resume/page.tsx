@@ -16,21 +16,35 @@ export default function Page() {
       </div>
       <div className={styles.resume}>
         <h2 className={styles.name}>Igor Papandinas</h2>
-        <h3 className={styles.job}>Blockchain Engineer</h3>
+        <h3 className={styles.job}>Software Engineer</h3>
 
         <div className={styles.intro}>
           <div className={styles.description}>
-            <p>Hello, I&apos;m Igor.</p>
+            <p>Hi, I&apos;m Igor.</p>
             <p>
-              I&apos;m a blockchain engineer and manager for fullstack project.
-              I&apos;m a prev member of the Astar & Ternoa core team, an Alumni
+              I&apos;m protocol engineer at{' '}
+              <a
+                className={styles.link}
+                href="https://startale.com/en"
+                title="Startale Website"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Startale
+              </a>{' '}
+              working on the Astar Network and building distributed systems for
+              billions. I&apos;m prev member of the Ternoa core team, an Alumni
               of the Polkadot Blockchain Academy, an entrepreneur and crypto
-              enthusiast with 6 years of experience in software development.
+              enthusiast with 8 years of experience in software development.
             </p>
             <p>
-              I am very quality conscious and understand the requirements to
-              create user-friendly experiences. I have the necessary rigour to
-              manage a project properly and support my customers.
+              My experience and interests are in Byzantine fault-tolerant
+              systems for blockchain applications, including consensus protocols
+              and high-performance execution engines. I am very
+              quality-conscious and understand the requirements for creating
+              resilient distributed systems that scale. I have the necessary
+              rigor to contribute to projects from the research and
+              implementation stages through to running them in production.
             </p>
           </div>
           <div className={styles.contact}>
@@ -41,14 +55,6 @@ export default function Page() {
               rel="noopener noreferrer"
             >
               igor.papandinas@posteo.net
-            </a>
-            <a
-              href="tel:+33667603981"
-              title="Contact Phone"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              +33 6 67 60 39 81
             </a>
             <br />
             <a
@@ -102,16 +108,15 @@ export default function Page() {
         <Section anchor="skills" title="Technical skills">
           <>
             <TechnicalSection>
-              <Tag name="Javascript/Typescript" />
-              <Tag name="React" version="19" />
-              <Tag name="NextJS" version="14" />
               <Tag name="Rust" />
               <Tag name="Substrate" />
+              <Tag name="Reth" />
+              <Tag name="BFT Consensus" />
+              <Tag name="Javascript/Typescript" />
+              <Tag name="React" version="19" />
+              <Tag name="NextJS" version="15" />
               <Tag name="PolkadotJS" />
               <Tag name="EthersJS" />
-              <Tag name="TailwindCSS" />
-              <Tag name="Tanstack Query" />
-              <Tag name="GraphQL" />
               <Tag name="NodeJS" />
               <Tag name="Postgres" />
               <Tag name="Ink!" />
@@ -159,9 +164,12 @@ export default function Page() {
 
         <Section anchor="experience" title="Experience">
           <Experience
-            subtitle="Remote – (Jan 2024 - Apr 2024)"
-            title="• Blockchain Ink! engineer (Typescript | Rust | Substrate) - @Astar"
+            subtitle="Remote – (Jan 2024 - now)"
+            title="• Protocol Engineer (Rust | Reth | Substrate) - @Startale"
           >
+            <br />- Contribute to Soneium L1, a scalable, decentralized, user
+            and developer experience oriented blockchain.
+            <br />- Maintain{' '}
             <a
               className={styles.link}
               href="https://astar.network/"
@@ -170,13 +178,12 @@ export default function Page() {
               rel="noopener noreferrer"
             >
               Astar
-            </a>{' '}
-            is a scalable network powering a global Web3 vision for all.
-            <br />
+            </a>
+            , an interoperable blockchain platform for Polkadot and Ethereum
+            ecosystems supporting both Wasm and EVM smart contracts.
             <br />- Lead the development of Swanky, an open source CLI devtool
-            designed to enhance the development and interaction with ink! WASM
-            smart contracts, extending cargo-contract. Tasked with fulfilling
-            the ink!devhub roadmap proposal.
+            to interact with ink! WASM smart contracts, extending
+            cargo-contract.
           </Experience>
           <Experience
             subtitle="Remote – (Oct 2021 - July 2023)"

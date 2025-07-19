@@ -20,7 +20,9 @@
   line-height: 1.5;
   border: 0.4rem solid #000;
   text-align: center;
-  transition: color 300ms, background-color 300ms;
+  transition:
+    color 300ms,
+    background-color 300ms;
   border-image-slice: 3;
   border-image-width: 3;
   border-image-outset: 2;

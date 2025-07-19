@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import anime from 'animejs'
+import { createTimeline } from 'animejs'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
@@ -20,13 +20,14 @@ const MorphPortal = ({ destination, top, left }: Props) => {
     const main = document.querySelector('main')
     if (main) main.style.zIndex = '1000'
 
-    const timeline = anime.timeline({
-      duration: 7000,
-      easing: 'easeOutCubic',
+    const timeline = createTimeline({
+      defaults: {
+        ease: 'easeOutCubic',
+        duration: 4000,
+      },
     })
 
-    timeline.add({
-      targets: '#morph',
+    timeline.add('#morph', {
       scale: `${window.innerHeight / 10}`,
       left: [`${left}px`, `${left / 2}px`],
       top: [`${top}px`, `${top / 2}px`],
